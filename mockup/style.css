@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+body {
+	background-color: white;
+}
+
+/*
+login
+*/
+
+.login-box {
+	display: block;
+	max-width: 30%;
+	margin: 200px auto;
+	font-family: 'Open Sans', sans-serif;
+	background-color: white;
+	padding: 20px;
+	padding-bottom: 60px;
+	text-align: center;
+	border-radius: 10px;
+	color: #222222;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	/*box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;*/
+}
+
+.login-box h1 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.login-box span {
+	font-family: 'Lalezar', cursive;
+	font-size: 1.5em;
+	color: rgba(250, 100, 61, 1);
+}
+
+.login-box input {
+	width: 60%;
+	height: 30px;
+	margin: 0px auto;
+	background-color: #f7f7f7;
+	border-color: #eaeaea;
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px;
+	padding-left: 5px;
+}
+
+.login-box h2 {
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0px auto;
+	margin-top: 20px;
+	max-width: 80%;
+	text-align: left;
+}
+
+.login-box a {
+	color: rgba(60,160,220,1);
+	font-weight: bold;
+}
+
+.login-button {
+	width: 200px;
+	border: 2px solid rgba(60,160,220,1);
+	color: rgba(60,160,220,1);
+	width: 50%;
+	margin: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(60,160,220,0.1);
+	text-decoration: none;
+}
+
+.login-button:visited {
+	color: rgba(60,160,220,1);
+	text-decoration: none;
+}
+
+.login-button:hover {
+	transition-duration: 0.3s;
+	background-color: rgba(60,160,220,1);
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+/*
+home page
+*/
+
+.top {
+	box-shadow: 0px 1px 0px rgba(100,100,100,0.18), 0px 2px 0px rgba(100,100,100,0.12), 0px 3px 0px rgba(100,100,100,0.08), 0px 1px 0px rgba(100,100,100,0.07);
+	margin: 0px;
+}
+
+nav {
+	height: 80px;
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+}
+
+nav a {
+	color: #222222;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #222222;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: rgba(60,160,220,1);
+	text-decoration: none;
+}
+
+nav a.logo {
+	color: rgba(250, 100, 61, 1);
+	text-decoration: none;
+}
+
+nav a.logo:visited {
+	color: rgba(250, 100, 61, 1);
+	text-decoration: none;
+}
+
+
+h3 {
+	font-family: 'Lalezar', cursive;
+	font-size: 40px;
+	width: 55%;
+	margin-top: 10px;
+	margin-left: 30px;
+	color: rgba(250, 100, 61, 1);
+}
+
+
+ul.links {
+	list-style-type: none;
+	display: flex;
+	margin-right: 30px;
+	font-weight: 500;
+}
+
+li {
+	font-size: 14px;	
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 14px 15px;
+}
+
+li:hover {
+	transition-duration: 0.3s;
+	color: rgba(60,160,220,1);
+}
+
+.button {
+	border: 2px solid rgba(60,160,220,1);
+	color: rgba(60,160,220,1);
+	padding: 12px;
+	border-radius: 5px;
+	background-color: rgba(60,160,220,0.1);
+	text-decoration: none;
+}
+
+.button:visited {
+	color: rgba(60,160,220,1);
+	text-decoration: none;
+}
+
+.button:hover {
+	transition-duration: 0.3s;
+	background-color: rgba(60,160,220,1);
+	color: white;
+	text-decoration: none;
+}
+
+.expo {
+	background-color: rgba(100,200,250,0.4);
+}
+
+
+
+
+
+
+/*
+general quiz categories
+*/
+
+.section {
+	padding: 50px 0px;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	margin-top: 40px;
+	font-family: 'Lalezar', cursive;
+	color: rgba(250, 100, 61, 1);
+}
+
+table {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	border-spacing: 30px 50px;
+}
+
+td {
+	padding: 22px 2px 2px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+	border-radius: 5px;
+}
+
+td h4 {
+	margin: 20px;
+}
+
+td a {
+	color: rgba(250, 100, 61, 1);
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0px;
+}
+
+td a:hover {
+	transition-duration: 0.3s;
+	text-decoration: underline;
+}
+
+td:hover {
+	transition-duration: 0.3s;
+	padding: 20px 0px 0px;
+	border: 2px solid rgba(60,160,220,1);
+	box-shadow: none;
+}
+
+td img {
+	height: 200px;
+}
+
+
+.selection {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	margin-top: 20px;
+}
+
+.selection ul {
+	display: flex;
+	list-style-type: none;
+	padding-top: 8px;
+}
+
+.selection p {
+
+	font-family: 'Lalezar', cursive;
+	font-size: 20px;
+	padding-left: 40px;
+	width: 150px;
+}
+
+.selection li {
+	padding: 0px;
+	margin: 0px 5px;
+}
+
+.selection a {
+	padding: 5px 10px;
+	border-radius: 20px;
+	color: #222222;
+	text-decoration: none;
+}
+
+.selection a:visited {
+	color: #222222;
+	text-decoration: none;
+}
+
+.selection a:hover {
+	transition-duration: 0.3s;
+	text-decoration: underline;
+}
+
+.selection a.onpage {
+	color: white;
+	background-color: rgba(60,160,220,1);
+}
